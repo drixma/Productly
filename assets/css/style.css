@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  font-weight: 600;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  padding: 12px 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #bcd0e5;
+  background: none;
+  border-radius: 4px;
+}
+.btn-orange {
+  background: #ff9900;
+  border-color: #ff9900;
+  color: #fff;
+}
+.btn-no-border {
+  border: none;
+  text-decoration: underline;
+  color: #ff9900;
+}
+.btn-no-border:hover {
+  text-decoration: none;
+}
+.btn-with-icon {
+  display: flex;
+  gap: 10px;
+}
+.icon-with-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.large {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.small {
+  border-radius: 13px;
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+}
+.bg-purple {
+  background-color: #7752be;
+}
+.bg-yellow {
+  background-color: #fab005;
+}
+.bg-red {
+  background-color: #f03e3d;
+}
+.bg-blue {
+  background-color: #4dadf7;
+}
+.main-wrapper {
+  margin: 0 10.3%;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 0 17px 0;
+}
+.site-primary-menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+/* Nav Links */
+.primary-menu-items {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+.primary-menu-items a {
+  text-decoration: none;
+  color: #2f281e;
+  font-size: 14px;
+  line-height: 28px;
+}
+.primary-menu-items a:hover {
+  text-decoration: underline;
+}
+
+/* Nav Buttons */
+.primary-menu-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* site hero */
+.site-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.hero-text {
+  max-width: 50%;
+  margin-top: 118px;
+}
+.hero-text h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+  margin-bottom: 30px;
+}
+.hero-text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  margin-bottom: 45px;
+}
+.hero-btns {
+  display: flex;
+  gap: 30px;
+
+}
+ .site-hero .main-wrapper{
+  margin-top: 120px;
+  margin-bottom: 37px;
+ }
+/* site features */
+.site-features {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.site-features h3 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #2f281e;
+  max-width: 540px;
+  margin-bottom: 30px;
+}
+.features {
+  display: flex;
+  gap: 46px;
+  margin: 60px 0;
+  margin-top: 30px;
+  margin-bottom: 118px;
+}
+.features h4 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #2f281e;
+  margin-bottom: 15px;
+}
+.features p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #544837;
+}
+
+  
+
+/* Site hero 2 */
+.site-hero p:first-child {
+  margin-bottom: 5px;
+}
+.site-hero h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f281e;
+  margin-bottom: 55px;
+}
+.site-hero h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2f281e;
+  margin-bottom: 22px;
+}
+
+/* site hero 3 */
+.site-hero li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  
+}
+.site-hero li p {
+  margin-bottom: 0;
+}
+
+/* Site footer */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #979797;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-menu {
+  display: flex;
+  gap: 130px;
+}
+.footer-menu div {
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu div a {
+  line-height: 35px;
+  color: #544837;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+.footer-menu div a:hover {
+  text-decoration: underline;
+}
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+.sign-up-form input[type='email'] {
+  padding: 10px 15px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+.sign-up-form button {
+  font-weight: 700;
+}
+
+
+
+/* solution with margin */
+/* .primary-menu-items a {
+  margin: 0 13px;
+}
+.primary-menu-items a:last-child,
+.primary-menu-items a:first-child {
+  margin: 0 0;
+} */
